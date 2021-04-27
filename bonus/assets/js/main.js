@@ -11,13 +11,12 @@ for (var i = 1; i <= max; i++){
     //risolvo l'esercizio con if e else if
     if (i % 3 == 0 && i % 5 == 0) {
         console.log("FizzBuzz");
-        message += "FizzBuzz" + "<br>";
+        message += "<span class=\"red\">FizzBuzz</span>" + "<br>";
     } else if (i % 3 == 0) {
         console.log("Fizz");
-        message += "Fizz" + "<br>";
+        message += "<span class=\"blu\">Fizz</span>" + "<br>";
     } else if (i % 5 == 0) {
-        console.log("Buzz");
-        message += "Buzz" + "<br>";
+        message += "<span class=\"verde\">Buzz</span>" + "<br>";
     } else {
         console.log(i);
         message += i + "<br>";
