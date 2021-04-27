@@ -5,13 +5,30 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz. */
 
 
 for (var i = 1; i <= 100; i++){
+
+    //risolvo l'esercizio con if e else if
     if (i % 3 == 0 && i % 5 == 0) {
         console.log("FizzBuzz");
-    } else if (i % 3 ==  0) {
+    } else if (i % 3 == 0) {
         console.log("Fizz");
     } else if (i % 5 == 0) {
         console.log("Buzz");
     } else {
         console.log(i);
     }
+
+    //risolvo l'esercizio con switch e case
+    /* switch (true) {
+        case i % 3 == 0 && i % 5 == 0:
+            console.log("FizzBuzz");
+            break;
+        case i % 3 == 0:
+            console.log("Fizz");
+            break;
+        case i % 5 == 0:
+            console.log("Buzz");
+            break;
+        default:
+        console.log(i);
+    } */
 }
