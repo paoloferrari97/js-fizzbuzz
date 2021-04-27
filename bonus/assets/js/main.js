@@ -11,16 +11,16 @@ for (var i = 1; i <= max; i++){
     //risolvo l'esercizio con if e else if
     if (i % 3 == 0 && i % 5 == 0) {
         console.log("FizzBuzz");
-        message += "FizzBuzz" + ", ";
+        message += "FizzBuzz" + "<br>";
     } else if (i % 3 == 0) {
         console.log("Fizz");
-        message += "Fizz" + ", ";
+        message += "Fizz" + "<br>";
     } else if (i % 5 == 0) {
         console.log("Buzz");
-        message += "Buzz" + ", ";
+        message += "Buzz" + "<br>";
     } else {
         console.log(i);
-        message += i + ", ";
+        message += i + "<br>";
     }
     
     //risolvo l'esercizio con switch e case
